@@ -1,4 +1,4 @@
-$LocalAVDpath            = "c:\temp"
+$LocalAVDpath            = "c:\temp\"
 $AVDBootURI              = 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWrxrH'
 $AVDAgentURI             = 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWrmXv'
 $AVDAgentInstaller       = 'AVD-Agent.msi'
