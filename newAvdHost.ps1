@@ -100,11 +100,3 @@ $agent_deploy_status = Start-Process `
     -Passthru
 Add-Content -LiteralPath C:\New-AVDSessionHost.log "AVD Agent Install Complete"
 Wait-Event -Timeout 5
-
-
-
-##########################
-#    Restart Computer    #
-##########################
-Add-Content -LiteralPath C:\New-AVDSessionHost.log "Process Complete - REBOOT"
-Restart-Computer -Force
